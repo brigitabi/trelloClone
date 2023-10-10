@@ -96,7 +96,7 @@ const Column = ({ id, todos, index }: Props) => {
                       onClick={handleAddTodo}
                       className="text-blue-500 hover:text-blue-600"
                     >
-                      <PlusCircleIcon className="h-10 w-10" />
+                      <PlusCircleIcon className="h-10 w-10" size={10} />
                     </button>
                   </div>
                 </div>

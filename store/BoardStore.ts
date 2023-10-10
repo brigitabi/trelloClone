@@ -12,6 +12,7 @@ interface BoardState {
   newTaskType: TypedColumn;
   image: File | null;
 
+
   searchString: string;
   setSearchString: (searchString: string) => void;
 

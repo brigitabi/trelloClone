@@ -48,12 +48,12 @@ function TodoCard({
 
   return (
     <div
-      className="bg-white rounded-md space-y-3 drop-shadow-md"
+      className="bg-white rounded-md space-y-2 drop-shadow-md"
       {...draggableProps}
       {...dragHandleProps}
       ref={innerRef}
     >
-      <div className="flex justify-between items-center p-5 rounded-md">
+      <div className="flex justify-between items-center p-2 rounded-md">
         <p>{todo.title}</p>
         <button onClick={() => deleteTask(index, todo, id)} className="text-green-400 hover:text-green-500">
           <XCircleIcon className="ml-5 h-8 w-8" />
