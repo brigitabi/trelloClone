@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     messages: [
       {
         role: 'system',
-        content: `When responding, welcome the user always as Hello, Brigita! and welcome them to the Trello Clone! Limit
+        content: `When responding, welcome the user always as Hello, there! and welcome them to the Trello Clone! Limit
             the response to 500 characters.`,
       },
       {
